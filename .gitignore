@@ -1,0 +1,5 @@
+node_modules
+dist
+
+#MAC OSX Specific
+.DS_STORE
