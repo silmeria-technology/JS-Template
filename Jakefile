@@ -9,7 +9,7 @@ task('build', [], require('./build/build').executeBuild);
 
 desc("Runs all tests - jake test [path,path2]");
 task('test', [], function () {
-    require('./build/test')(null, process.argv.length >= 4 ? process.argv[3] : null);
+    require('./build/test').runSpecs({}, process.argv.length >= 4 ? process.argv[3] : null);
 });
 
 desc("Runs jshint - jake lint [path1] [path2]");
