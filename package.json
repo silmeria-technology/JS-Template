@@ -10,11 +10,14 @@
   "dependencies": {
     "jasmine-node": "1.2.3",
     "wrench": "1.4.4",
-    "jake": "*",
+    "jake": "latest",
     "jshint": "0.5.2",
     "async": "0.2.5",
     "node-po": "0.1.2",
     "btoa": "1.1.0",
     "mustache": "0.7.0"
+  },
+  "scripts": {
+    "install": "npm install -g jake"
   }
 }
