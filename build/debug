@@ -1,3 +1,0 @@
-#!/bin/sh
-DIR="$(dirname $0)"
-node $DIR/../dependencies/r.js -o $DIR/build.js 
