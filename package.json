@@ -1,0 +1,20 @@
+{
+  "name": "JS-Template",
+  "version": "1.1.0",
+  "description": "Starter template for JS projects",
+  "repository": "git://github.com/rcruz/JS-Template.git",
+  "author": {
+    "name": "Rowell Cruz",
+    "url": "http://github.com/rcruz"
+  },
+  "dependencies": {
+    "jasmine-node": "1.2.3",
+    "wrench": "1.4.4",
+    "jake": "*",
+    "jshint": "0.5.2",
+    "async": "0.2.5",
+    "node-po": "0.1.2",
+    "btoa": "1.1.0",
+    "mustache": "0.7.0"
+  }
+}
